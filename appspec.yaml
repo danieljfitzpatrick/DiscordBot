@@ -13,3 +13,7 @@ hooks:
     - location: scripts/start_bot.sh
     timeout: 300
     runas: root
+  ApplicationStop:
+    - location: scripts/stop_bot.sh
+    timeout: 300
+    runas: root
